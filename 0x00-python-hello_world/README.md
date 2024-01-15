@@ -11,3 +11,4 @@ This folder contains all tasks in the 0x00-python-hello_world project.
 - Print float([4-print_float.py](./4-print_float.py))
 - Print string([5-print_string.py](./5-print_string.py))
 - Concatenate string([6-concat.py](./6-concat.py))
+- Truncation([7-edges.py](./7-edges.py))
