@@ -4,4 +4,4 @@ This folder contains all tasks in the 0x00-python-hello_world project.
 
 ## Tasks
 
-- Run Python File
+- Run Python File[./0-run]
