@@ -4,4 +4,7 @@ This folder contains all tasks in the 0x00-python-hello_world project.
 
 ## Tasks
 
-- Run Python File([0-run](https://github.com/MaxTheDreaded/alx-higher_level_programming/blob/main/0x00-python-hello_world/0-run))
+- Run Python file([0-run](https://github.com/MaxTheDreaded/alx-higher_level_programming/blob/main/0x00-python-hello_world/0-run))
+- Run Python file inline([1-run_inline](./1-run_inline))
+- Print function([2-print.py](./2-print.py))
+- Print integer([3-print_number.py](./3-print_number.py))
