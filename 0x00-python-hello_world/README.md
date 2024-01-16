@@ -13,3 +13,4 @@ This folder contains all tasks in the 0x00-python-hello_world project.
 - Concatenate string([6-concat.py](./6-concat.py))
 - Truncation([7-edges.py](./7-edges.py))
 - Mix and match([8-concat_edges.py](./8-concat_edges.py))
+- Zen!([9-easter_egg.py](./9-easter_egg.py))
