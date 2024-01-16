@@ -16,3 +16,4 @@ This folder contains all tasks in the 0x00-python-hello_world project.
 - Zen!([9-easter_egg.py](./9-easter_egg.py))
 - Efficiency!([10-check_cycle.c](./10-check_cycle.c))([lists.h](./lists.h))
 - Imports([100-write.py](./100-write.py))
+- Compiler Script([101-compile](./101-compile))
