@@ -16,3 +16,4 @@ This folder contains all tasks in the 0x01-python-if_else_loops_functions projec
 - Print last digit([9-print_last_digit.py](./9-print_last_digit.py))
 - Add([10-add.py](./0-positive_or_negative.py))
 - Indices([11-pow.py](./11-pow.py))
+- FizzBuzz([12-fizzbuzz.py](./12-fizzbuzz.py))
