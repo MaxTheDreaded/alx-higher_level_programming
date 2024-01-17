@@ -8,3 +8,4 @@ This folder contains all tasks in the 0x01-python-if_else_loops_functions projec
 - Modulus([1-last_digit.py](./1-last_digit.py))
 - lowercase([2-print_alphabet.py](./2-print_alphabet.py))
 - Excluding results([3-print_alphabt.py](./3-print_alphabt.py))
+- Using Hex([4-print_hexa.py](./4-print_hexa.py))
