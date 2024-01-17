@@ -11,3 +11,4 @@ This folder contains all tasks in the 0x01-python-if_else_loops_functions projec
 - Using Hex([4-print_hexa.py](./4-print_hexa.py))
 - Numbers([5-print_comb2.py](./5-print_comb2.py))
 - Combinations([6-print_comb3.py](./6-print_comb3.py))
+- Check lowercase([7-islower.py](./7-islower.py))
