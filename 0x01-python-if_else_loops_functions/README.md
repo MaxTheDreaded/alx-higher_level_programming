@@ -13,3 +13,4 @@ This folder contains all tasks in the 0x01-python-if_else_loops_functions projec
 - Combinations([6-print_comb3.py](./6-print_comb3.py))
 - Check lowercase([7-islower.py](./7-islower.py))
 - Check uppercase([8-uppercase.py](./8-uppercase.py))
+- Print last digit([9-print_last_digit.py](./9-print_last_digit.py))
