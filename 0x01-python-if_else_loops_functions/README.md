@@ -5,3 +5,4 @@ This folder contains all tasks in the 0x01-python-if_else_loops_functions projec
 ## Tasks
 
 - Positive/Negative([0-positive_or_negative.py](./0-positive_or_negative.py))
+- Modulus([1-last_digit.py](./1-last_digit.py))
