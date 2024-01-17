@@ -18,3 +18,4 @@ This folder contains all tasks in the 0x01-python-if_else_loops_functions projec
 - Indices([11-pow.py](./11-pow.py))
 - FizzBuzz([12-fizzbuzz.py](./12-fizzbuzz.py))
 - Reversing strings([100-print_tebahpla.py](./100-print_tebahpla.py))
+- Selective removal([101-remove_char_at.py](./101-remove_char_at.py))
