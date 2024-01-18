@@ -4,10 +4,12 @@ from sys import argv
 if __name__ == "__main__":
     argsCount = len(argv) - 1
 
-    if argsCount == 1:
-        print("{} argument.".format(argsCount))
-    else:
+    if argsCount == 0:
         print("{} arguments.".format(argsCount))
+    elif argsCount == 1:
+        print("{} argument:".format(argsCount))
+    else:
+        print("{} arguments:".format(argsCount))
 
     argsList = []
     for c in argv:
