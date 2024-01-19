@@ -1,18 +1,14 @@
-#!/usr/bin/python3
-
 from sys import argv
+
 if __name__ == "__main__":
     argsCount = len(argv) - 1
 
     if argsCount == 0:
-        print("{} arguments.".format(argsCount))
+        print("0 arguments.")
     elif argsCount == 1:
-        print("{} argument:".format(argsCount))
+        print("1 argument:")
     else:
         print("{} arguments:".format(argsCount))
 
-    argsList = []
-    for c in argv:
-        argsList += [c]
-    for i in range(1, len(argsList)):
-        print("{} = {}".format(i, argsList[i]))
+    for i in range(1, len(argv)):
+        print("{}: {}".format(i, argv[i]))
