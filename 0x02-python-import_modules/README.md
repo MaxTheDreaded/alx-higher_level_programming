@@ -11,3 +11,4 @@ This folder contains all tasks in the 0x01-python-import_modules project.
 - Who Are You?([4-hidden_discovery.py](./4-hidden_discovery.py))
 - Importing Variables([5-variable_load.py](./5-variable_load.py))
 - Usable Calculator([100-my_calculator.py](./100-my_calculator.py))
+- Is this Necessary?([101-easy_print.py](./101-easy_print.py))
