@@ -13,3 +13,4 @@ This folder contains all tasks in the 0x01-python-import_modules project.
 - Usable Calculator([100-my_calculator.py](./100-my_calculator.py))
 - Is this Necessary?([101-easy_print.py](./101-easy_print.py))
 - MAGIC!([102-magic_calculation.py](./102-magic_calculation.py))
+- ABC!([103-fast_alphabet.py](./103-fast_alphabet.py))
