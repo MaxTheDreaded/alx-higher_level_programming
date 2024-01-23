@@ -14,3 +14,4 @@ This folder contains all tasks in the 0x03-python-data_structures project.
 - Tuples Addition([7-add_tuple.py](./7-add_tuple.py))
 - More returns!([8-multiple_returns.py](./8-multiple_returns.py))
 - Find the Max([9-max_integer.py](./9-max_integer.py))
+- Divisible by 2([10-divisible_by_2.py](./10-divisible_by_2.py))
