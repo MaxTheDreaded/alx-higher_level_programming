@@ -11,3 +11,4 @@ This folder contains all tasks in the 0x03-python-data_structures project.
 - Replace in copy([4-new_in_list.py](./4-new_in_list.py))
 - No C([5-no_c.py](./5-no_c.py))
 - List of lists([6-print_matrix_integer.py](./6-print_matrix_integer.py))
+- Tuples Addition([7-add_tuple.py](./7-add_tuple.py))
