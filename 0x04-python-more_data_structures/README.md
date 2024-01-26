@@ -63,3 +63,8 @@ This folder contains tasks from the [More Data Structures](https://github.com/Ma
   - [11-multiply_list_map.py](
         https://github.com/MaxTheDreaded/alx-higher_level_programming/blob/main/0x04-python-more_data_structures/11-multiply_list_map.py
   )
+
+- Convert a Roman Numeral to an Integer
+  - [12-roman_to_int.py](
+        https://github.com/MaxTheDreaded/alx-higher_level_programming/blob/main/0x04-python-more_data_structures/12-roman_to_int.py
+    )
