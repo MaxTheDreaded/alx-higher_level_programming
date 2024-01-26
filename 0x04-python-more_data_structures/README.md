@@ -13,3 +13,8 @@ This folder contains tasks from the [More Data Structures](https://github.com/al
   - [1-search_replace.py](
         https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/1-search_replace.py
     )
+
+- Add all unique integers in a list (only once for each integer)
+  - [2-uniq_add.py](
+        https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/2-uniq.py
+    )
