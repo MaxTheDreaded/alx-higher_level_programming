@@ -33,3 +33,8 @@ This folder contains tasks from the [More Data Structures](https://github.com/al
   - [5-number_keys.py](
         https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/5-number_keys.py
     )
+
+- Print a dictionary by ordered keys
+  - [6-print_sorted_dictionary.py](
+        https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/6-print_sorted_dictionary.py
+    )
