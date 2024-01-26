@@ -58,4 +58,8 @@ This folder contains tasks from the [More Data Structures](https://github.com/al
   - [10-best_score.py](
         https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/10-best_score.py
     )
-s
+
+- Return a list with all values multiplied by a number without using any loops
+  - [11-multiply_list_map.py](
+        https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/11-multiply_list_map.py
+  )
