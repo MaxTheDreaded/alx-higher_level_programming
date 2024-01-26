@@ -73,3 +73,8 @@ This folder contains tasks from the [More Data Structures](https://github.com/Ma
   - [100-weight_average.py](
         https://github.com/MaxTheDreaded/alx-higher_level_programming/blob/main/0x04-python-more_data_structures/100-weight_average.py
     )
+
+- Compute the square value of all integers of a matrix using map
+  - [101-square_matrix_map.py](
+        https://github.com/MaxTheDreaded/alx-higher_level_programming/blob/main/0x04-python-more_data_structures/101-square_matrix_map.py
+    )
