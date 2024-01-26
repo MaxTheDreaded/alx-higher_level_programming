@@ -48,3 +48,8 @@ This folder contains tasks from the [More Data Structures](https://github.com/al
   - [8-simple_delete.py](
         https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/8-simple_delete.py
     )
+
+- Return a new dictionary with all values multiplied by 2
+  - [9-multiply_by_2.py](
+        https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/9-multiply_by_2.py
+    )
