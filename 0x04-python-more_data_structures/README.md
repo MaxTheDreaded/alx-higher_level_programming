@@ -8,3 +8,8 @@ This folder contains tasks from the [More Data Structures](https://github.com/al
   - [0-square_matrix_simple.py](
         https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/0-square_matrix_simple.py
     )
+
+- Replace all occurrences of an element by another in a new list
+  - [1-search_replace.py](
+        https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/1-search_replace.py
+    )
