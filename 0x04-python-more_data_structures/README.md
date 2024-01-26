@@ -28,3 +28,8 @@ This folder contains tasks from the [More Data Structures](https://github.com/al
   - [4-only_diff_elements.py](
         https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/4-only_diff_elements.py
     )
+
+- Return the number of key/value pairs in a dictionary
+  - [5-number_keys.py](
+        https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/5-number_keys.py
+    )
