@@ -68,3 +68,8 @@ This folder contains tasks from the [More Data Structures](https://github.com/Ma
   - [12-roman_to_int.py](
         https://github.com/MaxTheDreaded/alx-higher_level_programming/blob/main/0x04-python-more_data_structures/12-roman_to_int.py
     )
+
+- Return the weighted average of all integers tuple
+  - [100-weight_average.py](
+        https://github.com/MaxTheDreaded/alx-higher_level_programming/blob/main/0x04-python-more_data_structures/100-weight_average.py
+    )
