@@ -43,3 +43,8 @@ This folder contains tasks from the [More Data Structures](https://github.com/al
   - [7-update_dictionary.py](
         https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/7-update_dictionary.py
     )
+
+- Delete a key in a dictionary
+  - [8-simple_delete.py](
+        https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/8-simple_delete.py
+    )
