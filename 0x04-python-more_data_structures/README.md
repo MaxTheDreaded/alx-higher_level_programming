@@ -38,3 +38,8 @@ This folder contains tasks from the [More Data Structures](https://github.com/al
   - [6-print_sorted_dictionary.py](
         https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/6-print_sorted_dictionary.py
     )
+
+- Update a dictionary
+  - [7-update_dictionary.py](
+        https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/7-update_dictionary.py
+    )
