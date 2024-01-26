@@ -53,3 +53,9 @@ This folder contains tasks from the [More Data Structures](https://github.com/al
   - [9-multiply_by_2.py](
         https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/9-multiply_by_2.py
     )
+
+- Return the key with the biggest integer value
+  - [10-best_score.py](
+        https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/10-best_score.py
+    )
+s
