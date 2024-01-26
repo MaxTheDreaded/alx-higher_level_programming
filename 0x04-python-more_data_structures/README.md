@@ -23,3 +23,8 @@ This folder contains tasks from the [More Data Structures](https://github.com/al
   - [3-common_elements.py](
         https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/3-common_elements.py
     )
+
+- Return a set of all elements present in only one set
+  - [4-only_diff_elements.py](
+        https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/4-only_diff_elements.py
+    )
