@@ -18,3 +18,8 @@ This folder contains tasks from the [More Data Structures](https://github.com/al
   - [2-uniq_add.py](
         https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/2-uniq.py
     )
+
+- Return a set of common elements in two sets
+  - [3-common_elements.py](
+        https://github.com/alx-higher/0x04-python-more_data_structures/blob/master/3-common_elements.py
+    )
