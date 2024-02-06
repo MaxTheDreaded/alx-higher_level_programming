@@ -8,3 +8,4 @@ This folder contains tasks in the Python - Exceptions course of the ALX programm
 - [1. Safe printing of an integer list](./1-safe_print_integer.py)
 - [2. Print and count integers](./2-safe_print_list_integer.py)
 - [3. Integers division with debug](./3-safe_print_division.py)
+- [4. Divide a list](./4-list_division.py)
