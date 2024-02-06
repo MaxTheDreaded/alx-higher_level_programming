@@ -11,3 +11,4 @@ This folder contains tasks in the Python - Exceptions course of the ALX programm
 - [4. Divide a list](./4-list_division.py)
 - [5. Raise exception](./5-raise_exception.py)
 - [6. Raise a message](./6-raise_exception_msg.py)
+- [7. Safe integer print with error message](./100-safe_print_integer_err.py)
