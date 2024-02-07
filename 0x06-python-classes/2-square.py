@@ -7,18 +7,9 @@ class Square:
     """Represents a square"""
 
     def __init__(self, size=0):
-        """Initializing this square class
-        Args: size - represents the size of the square defined
-        """
-
-        self.size = size
-        try:
-            if type(size) is not int:
-                raise TypeError
-            if size < 0:
-                raise ValueError
+        if not isinstance(size, int):
+            raise TypeError("size must be an integer")
+        elif size < 0:
+            raise ValueError("size must be >= 0")
+        else:
             self.__size = size
-        except TypeError:
-            print("size must be an integer")
-        except ValueError:
-            print("size must be >= 0")
