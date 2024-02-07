@@ -6,3 +6,4 @@ This folder contains the code for the ALX's Python - Classes and Objects course.
 
 - [0. My first square](./0-square.py)
 - [1. Square with size](./1-square.py)
+- [2. Size Validation](./2-square.py)
