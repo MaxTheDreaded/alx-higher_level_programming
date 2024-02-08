@@ -10,7 +10,8 @@ class Square:
 
         Parameters:
             size (int): The size of the object.
-            position (tuple): The position of the object as a tuple of (x, y) coordinates.
+            position (tuple): The position of the object as a
+              tuple of (x, y) coordinates.
         """
         self.size = size
         self.position = position
