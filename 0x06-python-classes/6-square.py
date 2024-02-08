@@ -3,7 +3,15 @@
 
 
 class Square:
+    """Defines a square"""
     def __init__(self, size=0, position=(0, 0)):
+        """
+        Initialize the object with the given size and position.
+
+        Parameters:
+            size (int): The size of the object.
+            position (tuple): The position of the object as a tuple of (x, y) coordinates.
+        """
         self.size = size
         self.position = position
 
