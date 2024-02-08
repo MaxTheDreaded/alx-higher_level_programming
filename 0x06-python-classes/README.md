@@ -10,3 +10,4 @@ This folder contains the code for the ALX's Python - Classes and Objects course.
 - [3. Area of a square](./3-square.py)
 - [4. Access and update private attributes](./4-square.py)
 - [5. Printing A square](./5-square.py)
+- [6. Coordinates of a square](./6-square.py)
