@@ -52,4 +52,5 @@ class Rectangle:
         return "".join(rect)
 
     def __repr__(self):
-        return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
+        '''return the object address'''
+        return "<3-rectangle.Rectangle object at 0x{:x}>".format(id(self))
