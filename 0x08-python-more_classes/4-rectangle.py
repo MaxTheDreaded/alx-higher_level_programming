@@ -54,4 +54,4 @@ class Rectangle:
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
 
     def __hex__(self):
-        return "<3-rectangle.Rectangle object at 0x{:x}>".format(id(self))
+        return "0x{:x}".format(id(self))
