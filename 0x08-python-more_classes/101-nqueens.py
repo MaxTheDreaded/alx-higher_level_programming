@@ -9,32 +9,20 @@ import sys
 
 def is_safe(board, row, col, N):
     for i in range(col):
-        if board[row][i] == 1:
-            return False
-    for i, j in zip(range(row, -1, -1), range(col, -1, -1)):
-        if board[i][j] == 1:
-            return False
-    for i, j in zip(range(row, N, 1), range(col, -1, -1)):
-        if board[i][j] == 1:
+        if board[i] == row or abs(board[i] - row) == col - i:
             return False
     return True
 
 
-def solve_nqueens_util(board, col, N, solutions):
+def solve_nqueens_util(board, col, N, solutions, current_solution):
     if col == N:
-        solution = []
-        for i in range(N):
-            row_str = ''.join(str(cell) for cell in board[i])
-            solution.append(row_str)
-        solutions.append(solution)
-        return True
-    res = False
+        solutions.append(list(current_solution))
+        return
     for i in range(N):
-        if is_safe(board, i, col, N):
-            board[i][col] = 1
-            res = solve_nqueens_util(board, col + 1, N, solutions) or res
-            board[i][col] = 0
-    return res
+        if is_safe(current_solution, i, col, N):
+            current_solution.append(i)
+            solve_nqueens_util(board, col + 1, N, solutions, current_solution)
+            current_solution.pop()
 
 
 def solve_nqueens(N):
@@ -45,12 +33,11 @@ def solve_nqueens(N):
     if N < 4:
         print("N must be at least 4")
         sys.exit(1)
-    board = [[0 for _ in range(N)] for _ in range(N)]
     solutions = []
-    solve_nqueens_util(board, 0, N, solutions)
+    solve_nqueens_util([], 0, N, solutions, [])
     for solution in solutions:
         for row in solution:
-            print(row)
+            print([i, row] for i in range(N))
         print()
 
 
