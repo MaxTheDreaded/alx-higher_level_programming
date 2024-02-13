@@ -7,7 +7,7 @@ Module 4-print_square
 def print_square(size):
     """
     Prints a square with the character #
-    
+
     Args:
         size (int): size of the square
     """
