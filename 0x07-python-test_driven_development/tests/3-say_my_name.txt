@@ -1,0 +1,111 @@
+Test Cases for 3-say_my_name module:
+
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+
+>>> say_my_name("John", "Smith")
+Hello John Smith
+>>> say_my_name("Walter", "White")
+Hello Walter White
+>>> say_my_name("Bob")
+Hello Bob
+>>> say_my_name("Bob", "Green")
+Hello Bob Green
+
+'first_name or last_name is not a string'
+
+>>> say_my_name(1, "White")
+Traceback (most recent call last):
+	...
+	TypeError: first_name must be a string
+>>> say_my_name("Bob", 1)
+Traceback (most recent call last):
+	...
+	TypeError: last_name must be a string
+
+'first_name or last_name is a list'
+
+>>> say_my_name([1, 2], "White")
+Traceback (most recent call last):
+	...
+	TypeError: first_name must be a string
+>>> say_my_name("Bob", [1, 2])
+Traceback (most recent call last):
+	...
+	TypeError: last_name must be a string
+
+'first_name or last_name is a dictionary'
+
+>>> say_my_name({"a": 1}, "White")
+Traceback (most recent call last):
+	...
+	TypeError: first_name must be a string
+>>> say_my_name("Bob", {"a": 1})
+Traceback (most recent call last):
+	...
+	TypeError: last_name must be a string
+
+'first_name or last_name is a set'
+
+>>> say_my_name({1, 2}, "White")
+Traceback (most recent call last):
+	...
+	TypeError: first_name must be a string
+>>> say_my_name("Bob", {1, 2})
+Traceback (most recent call last):
+	...
+	TypeError: last_name must be a string
+
+'first_name or last_name is a tuple'
+
+>>> say_my_name((1, 2), "White")
+Traceback (most recent call last):
+	...
+	TypeError: first_name must be a string
+>>> say_my_name("Bob", (1, 2))
+Traceback (most recent call last):
+	...
+	TypeError: last_name must be a string
+
+'first_name or last_name is a float'
+
+>>> say_my_name(1.5, "White")
+Traceback (most recent call last):
+	...
+	TypeError: first_name must be a string
+>>> say_my_name("Bob", 1.5)
+Traceback (most recent call last):
+	...
+	TypeError: last_name must be a string
+
+'first_name or last_name is a boolean'
+
+>>> say_my_name(True, "White")
+Traceback (most recent call last):
+	...
+	TypeError: first_name must be a string
+>>> say_my_name("Bob", True)
+Traceback (most recent call last):
+	...
+	TypeError: last_name must be a string
+
+'first_name or last_name is a complex'
+
+>>> say_my_name(1j, "White")
+Traceback (most recent call last):
+	...
+	TypeError: first_name must be a string
+>>> say_my_name("Bob", 1j)
+Traceback (most recent call last):
+	...
+	TypeError: last_name must be a string
+
+'first_name or last_name is a None'
+
+>>> say_my_name(None, "White")
+Traceback (most recent call last):
+	...
+	TypeError: first_name must be a string
+>>> say_my_name("Bob", None)
+Traceback (most recent call last):
+	...
+	TypeError: last_name must be a string
