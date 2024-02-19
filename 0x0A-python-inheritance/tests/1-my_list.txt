@@ -1,6 +1,6 @@
 Test cases for 1-my_list module:
 
->>> my_list = __import__('1-my_list').MyList
+>>> MyList = __import__('1-my_list').MyList
 
 "Prints an already sorted list"
 >>> my_list = MyList()
