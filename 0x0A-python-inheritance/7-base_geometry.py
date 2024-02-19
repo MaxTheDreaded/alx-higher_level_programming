@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Module base_geometry
+"""
 """Defines a class BaseGeometry based on 6-base_geometry."""
 
 
