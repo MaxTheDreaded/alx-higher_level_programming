@@ -3,8 +3,8 @@
 
 
 class BaseGeometry:
-	"""Defines a class BaseGeometry."""
+    """Defines a class BaseGeometry."""
 
-	def area(self):
-		"""Not implemented."""
-		raise Exception("area() is not implemented")
+    def area(self):
+        """Not implemented."""
+        raise Exception("area() is not implemented")
