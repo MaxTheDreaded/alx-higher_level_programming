@@ -30,3 +30,37 @@ Test cases for 1-my_list module:
 >>> my_list = MyList()
 >>> my_list.print_sorted()
 []
+
+"check __str__ method"
+>>> my_list = MyList()
+>>> my_list.append(1)
+>>> my_list.append(2)
+>>> my_list.append(3)
+>>> print(my_list)
+[1, 2, 3]
+
+"check print_sorted method"
+>>> my_list = MyList()
+>>> my_list.append(1)
+>>> my_list.append(2)
+>>> my_list.append(3)
+>>> my_list.print_sorted()
+[1, 2, 3]
+
+"check print_sorted method with no sorted append with negative number"
+>>> my_list = MyList()
+>>> my_list.append(-1)
+>>> my_list.append(2)
+>>> my_list.append(3)
+>>> my_list.print_sorted()
+[-1, 2, 3]
+
+"check that print_sorted method returns a new list"
+>>> my_list = MyList()
+>>> my_list.append(1)
+>>> my_list.append(2)
+>>> my_list.append(3)
+>>> new_list = my_list.print_sorted()
+[1, 2, 3]
+>>> new_list is not my_list
+True
