@@ -25,4 +25,66 @@ ValueError: width must be greater than 0
 Traceback (most recent call last):
     ...
 ValueError: width must be greater than 0
-    
+
+"check integer_validator function with no arguments"
+>>> BaseGeometry().integer_validator()
+Traceback (most recent call last):
+    ...
+TypeError: BaseGeometry.integer_validator() missing 2 required positional arguments: 'name' and 'value'
+
+"check integer_validator function with only one argument"
+>>> BaseGeometry().integer_validator("width")
+Traceback (most recent call last):
+    ...
+TypeError: BaseGeometry.integer_validator() missing 1 required positional argument: 'value'
+
+"check integer_validator function with only two valid arguments"
+>>> BaseGeometry().integer_validator("width", 2)
+
+"check integer_validator function with tuple as second argument"
+>>> BaseGeometry().integer_validator("width", (2,))
+Traceback (most recent call last):
+    ...
+TypeError: width must be an integer
+
+"check integer_validator function with list as second argument"
+>>> BaseGeometry().integer_validator("width", [2])
+Traceback (most recent call last):
+    ...
+TypeError: width must be an integer
+
+"check integer_validator function with set as second argument"
+>>> BaseGeometry().integer_validator("width", {2})
+Traceback (most recent call last):
+    ...
+TypeError: width must be an integer
+
+"check integer_validator function with dictionary as second argument"
+>>> BaseGeometry().integer_validator("width", {"2": 2})
+Traceback (most recent call last):
+    ...
+TypeError: width must be an integer
+
+"check integer_validator function with string as second argument"
+>>> BaseGeometry().integer_validator("width", "2")
+Traceback (most recent call last):
+    ...
+TypeError: width must be an integer
+
+"check integer_validator function with float as second argument"
+>>> BaseGeometry().integer_validator("width", 2.0)
+Traceback (most recent call last):
+    ...
+TypeError: width must be an integer
+
+"check integer_validator function with boolean as second argument"
+>>> BaseGeometry().integer_validator("width", True)
+Traceback (most recent call last):
+    ...
+TypeError: width must be an integer
+
+"check integer_validator function with None as second argument"
+>>> BaseGeometry().integer_validator("width", None)
+Traceback (most recent call last):
+    ...
+TypeError: width must be an integer
