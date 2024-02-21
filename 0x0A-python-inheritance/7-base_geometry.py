@@ -19,8 +19,3 @@ class BaseGeometry:
         if value <= 0:
             raise ValueError("{} must be greater than 0".format(name))
         """Validate that the method is called with two arguments."""
-        args = 1
-        if len(locals()) < 3:
-            args = len(locals()) - args
-            raise TypeError("integer_validator() missing {} required \
-            positional arguments: 'name' and 'value'".format(args))
